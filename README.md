@@ -1,0 +1,1 @@
+Welcome to my langchain project repo. This repo contains the source of all the projects I built under the course [Active loop langchain tutorial](https://learn.activeloop.ai/courses/langchain). I used `google-palm 2 api` and `huggingface api` as my LLM. 
