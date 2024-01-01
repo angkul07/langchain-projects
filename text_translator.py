@@ -9,9 +9,6 @@ import os
 load_dotenv()
 huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-
-# def text_translator():
-# llm = GooglePalm(google_api_key=os.getenv("GOOGLE_API_KEY"))
 llm = HuggingFaceHub(
     repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1",
     model_kwargs={'temperature':0.1}
